@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pack.todolist</OriginalElement>
+  <nodes>
+    <node x="230.99999999999997" y="0.0">pack.todolist.Messages</node>
+    <node x="3.6666666666666288" y="325.0">pack.todolist.TodoList</node>
+    <node x="0.0" y="10.0">pack.todolist.Task</node>
+    <node x="134.66666666666663" y="673.0">pack.todolist.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pack.todolist.TodoList" target="pack.todolist.Messages">
+      <point x="102.75" y="-149.0" />
+      <point x="243.41666666666663" y="300.0" />
+      <point x="290.25" y="300.0" />
+      <point x="-59.25" y="137.5" />
+    </edge>
+    <edge source="pack.todolist.TodoList" target="pack.todolist.Task">
+      <point x="-102.75" y="-149.0" />
+      <point x="37.91666666666663" y="300.0" />
+      <point x="35.166666666666686" y="300.0" />
+      <point x="-70.33333333333333" y="127.5" />
+    </edge>
+    <edge source="pack.todolist.Main" target="pack.todolist.Messages">
+      <point x="49.666666666666686" y="-38.5" />
+      <point x="258.8333333333333" y="648.0" />
+      <point x="408.75" y="648.0" />
+      <point x="59.25" y="137.5" />
+    </edge>
+    <edge source="pack.todolist.Main" target="pack.todolist.TodoList">
+      <point x="-49.66666666666666" y="-38.5" />
+      <point x="159.49999999999997" y="648.0" />
+      <point x="72.16666666666663" y="648.0" />
+      <point x="-68.5" y="149.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="233.99999999999994" y="375.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
